@@ -1,0 +1,5 @@
+.mask,
+.cycle img{position:absolute;opacity:0;}
+.cycle img.show{opacity:1;}
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><title>Multi-exposure image with luminance mask</title>
+<style>
+  .mask img{display:none;}
+</style>
+</head>
+<body>
+  <div class=mask>
+    <canvas width=1024 height=768px></canvas>
+    <img src=mask-merged.png>
+  </div>
+  <script src="example2.js"></script>
+  <script>
+  document.querySelector('.mask img').addEventListener('load', init, false);
+  </script>
+</body>
+</html>
